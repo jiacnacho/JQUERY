@@ -24,6 +24,7 @@ div.contenedor {
 /** Navegacion **/
 .navegacion {
   background-color: #db008d;
+  /* display: none; */
 }
 nav {
   width: 1200px;
@@ -77,6 +78,48 @@ main {
   float: left;
   padding-right: 40px;
 }
+/** Servicios **/
+
+.servicios {
+  margin-top: 30px;
+}
+
+.servicios nav {
+  background-color: #00b8e4;
+  
+}
+
+.servicios nav a{
+  display: inline-block;
+  padding: 10px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.servicios nav a.activo {
+  background-color: #db008d; 
+  border: none;
+}
+
+.servicios nav a:hover{
+  background-color: #db008d;  
+}
+
+div.nuestros-servicios {
+  position: relative;
+  height: 200px;  
+}
+
+.nuestros-servicios > div {  /* > selecciona al primer hijo de los div */
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  background-color: #db008d; 
+  display: none;
+  color: white;
+}
+
 /** Entradas de post**/
 article {
     margin-top: 30px;
